@@ -1,14 +1,3 @@
-# Function returning fibonaci number coresponding to num position
-def fib(num)
-    i, j = 0, 1
-    while i <= num
-      puts i
-      i, j = j, i + j
-    end
-  end
-  
-  
-  
   # Recursive function returning an ordered array.
   def merge_sort(arr)
     arr_length = arr.length
